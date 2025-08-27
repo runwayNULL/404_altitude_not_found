@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 altitude not found</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+</head>
+
+<body class="page-home">
+
+    <div id="entry-plane" aria-hidden="true">
+        <img src="images/plane.png" alt="" />
+    </div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="404 altitude not found home">
+                <img src="images/logo.png" alt="" class="brand-icon">
+                <span class="brand-title">404altitudenotfound</span>
+            </a>
+
+            <nav class="site-nav" id="siteNav" aria-label="Primary">
+                <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="navMenu"
+                    aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="category.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <button id="themeToggle" class="btn btn-outline small" aria-label="Toggle dark mode">
+                            <span class="icon-sun" aria-hidden="true">☀</span>
+                            <span class="icon-moon" aria-hidden="true">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main container">
+
+        <section class="hero section fade-up">
+            <div class="hero-text">
+                <h1 class="flying-text">Welcome aboard.</h1>
+                <p class="lead">A sky‑blue blog where planes, people, and stories take off.</p>
+                <div class="hero-cta">
+                    <a class="btn btn-primary" href="category.html" id="explorePosts">Explore posts</a>
+                    <a href="about.html" class="btn btn-ghost" id="learnMore" data-target="#aboutTeaser">Learn more</a>
+                </div>
+                <div id="aboutTeaser" class="teaser collapsed">
+                    <p>
+                        We decode aviation with bite‑sized posts, mini quizzes, and interactive fun facts.
+                        <em>(Tap a plane icon for a random fact!)</em>
+                    </p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="images/hero-plane.png" alt="Airplane flying in a blue sky" class="hero-img">
+            </div>
+        </section>
+
+
+        <section class="fun-facts section" style="padding-bottom: 5rem;">
+            <h2 class="section-title flying-text">Tap a plane for a fun fact ✈</h2>
+            <div id="funPlanes" class="fun-planes-area" aria-live="polite"></div>
+            <div id="factToast" class="toast" role="status" aria-live="polite"></div>
+        </section>
+
+    </main>
+
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <footer class="site-footer">
+        <div class="container">
+            © 2025 404 altitude not found • Made with ☁ and ✈
+        </div>
+    </footer>
+
+    <script src="js/darkmode.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

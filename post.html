@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 altitude not found</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+</head>
+
+<body class="page-post">
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">
+                <img src="images/logo.png" alt="" class="brand-icon">
+                <span class="brand-title">404altitudenotfound</span>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="navMenu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="category.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <button id="themeToggle" class="btn btn-outline small" aria-label="Toggle dark mode">
+                            <span class="icon-sun">☀</span><span class="icon-moon">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main container">
+        <article id="post" class="post-view fade-up">
+            <header class="post-header">
+                <h1 id="postTitle" class="flying-text"></h1>
+                <div class="meta">
+                    <span id="postAuthor"></span>
+                    <span>•</span>
+                    <time id="postDate"></time>
+                </div>
+            </header>
+            <img id="postImage" class="post-hero" alt="">
+            <section id="postContent" class="content"></section>
+        </article>
+
+        <section class="mini-quiz section" id="quiz">
+            <h2 class="section-title flying-text">Mini Quiz</h2>
+            <div id="quizContainer"></div>
+            <div class="quiz-actions">
+                <button class="btn btn-primary quiz-submit">Submit</button>
+                <button class="btn btn-ghost quiz-reset">Reset</button>
+            </div>
+            <p class="quiz-feedback" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <footer class="site-footer">
+        <div class="container">
+            © 2025 404 altitude not found • Made with ☁ and ✈
+        </div>
+    </footer>
+
+    <script src="js/darkmode.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/posts.js"></script>
+</body>
+
+</html>
