@@ -1,0 +1,86 @@
+.flying-text {
+    display: inline-block;
+    animation: riseIn .9s cubic-bezier(.2, .8, .2, 1);
+    transform-origin: 50% 100%;
+}
+
+@keyframes riseIn {
+    from {
+        transform: translateY(16px);
+        opacity: 0
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes toastIn {
+    from {
+        transform: translate(-50%, 14px);
+        opacity: 0
+    }
+
+    to {
+        transform: translate(-50%, 0);
+        opacity: 1
+    }
+}
+
+@keyframes planeAcrossAndLoop {
+    0% {
+        transform: translateX(-12vw) translateY(0) rotate(0deg);
+        opacity: 0
+    }
+
+    5% {
+        opacity: 1
+    }
+
+    25% {
+        transform: translateX(25vw) translateY(-20px) rotate(8deg)
+    }
+
+    35% {
+        transform: translateX(35vw) translateY(0) rotate(0deg)
+    }
+
+    45% {
+        transform: translateX(45vw) translateY(20px) rotate(-8deg)
+    }
+
+    55% {
+        transform: translateX(55vw) translateY(0) rotate(0deg)
+    }
+
+    62% {
+        transform: translateX(62vw) translateY(-12px) rotate(0deg)
+    }
+
+    68% {
+        transform: translateX(62vw) translateY(0) rotate(360deg)
+    }
+
+    74% {
+        transform: translateX(68vw) translateY(-12px) rotate(0deg)
+    }
+
+    80% {
+        transform: translateX(68vw) translateY(0) rotate(360deg)
+    }
+
+    88% {
+        transform: translateX(88vw) translateY(-8px)
+    }
+
+    96% {
+        transform: translateX(108vw) translateY(6px);
+        opacity: 1
+    }
+
+    100% {
+        transform: translateX(118vw) translateY(6px);
+        opacity: 0
+    }
+}
