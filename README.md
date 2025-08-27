@@ -43,7 +43,11 @@ This project is my attempt to tell those stories in a way that feels magical.
 - 🌑 **Dark mode contrast issues** (blog titles disappearing into the void).  
 - ✈ Making a **plane-shaped button** that looked fun but didn’t break layouts. 
 
-## Accomplishments that we're proud of
+## Accomplishments that I'm proud of
+- ✅ Converting **dry aviation facts** into **engaging, human stories**.  
+- ✅ Creating a **design that feels both professional and playful**.  
+- ✅ Making a space where **learning about flight feels like flying itself**.  
+- ✅ Actually *enjoying* the debugging process (rare, but true).  
 
 ## What I learned
 - Storytelling is a technology in itself.  
