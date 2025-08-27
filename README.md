@@ -1,4 +1,4 @@
-# 404_altitude_not_found
+# 404 altitude not found
 Where curiosity takes flight.
 ## Inspiration
 I was inspired by the magic of flight itself.  
