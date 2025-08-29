@@ -1,32 +1,5 @@
 # 404 altitude not found
 Where curiosity takes flight.
-## ✈️ Inspiration
-I was inspired by the magic of flight itself.  
-Many people believe that aviation is either **too complicated** or **too mundane**. I wanted to close that gap by demonstrating how engineering, physics, and human resiliency all play a part in flying.
-
-A 17-hour ultra-long-haul is, after all, more than just sitting in a cabin; it's a dynamic combination of safety, fuel management, and rotations:
-
-$$
-\text{Safety Margin} = \frac{\text{Fuel Load}}{\text{Consumption Rate}} - \text{Diversion Distance}
-$$
-
-I'm trying to convey those tales in a magical way with this project.
-
----
-
-## ✨ What it does
-**404 altitude not found** is a blog with an aviation theme that combines interactive elements with narrative. Visitors get to experience aviation in addition to reading:
-
-- 📖 Explore stories about aviation, including hidden crew compartments, historical tragedies, and cutting-edge inventions.  
-- 🎮 Test knowledge with mini quizzes.  
-- 🛫 Tap playful airplane-shaped UI elements to unlock random aviation fun facts.  
-- 🌗 Switch between **day and night modes**, giving the impression that you’re flying from dawn into the night.  
-- 📱 Explore on any device thanks to a responsive layout built with **Flexbox + Grid + hamburger menu**.  
-- ✈ Enjoy subtle **flying plane animations** that set the mood as soon as you arrive.  
-
----
-
-# 404 Altitude Not Found ✈️  
 
 ## Inspiration  
 I was inspired by the magic of flight itself.  
