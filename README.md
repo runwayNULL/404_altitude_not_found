@@ -1,6 +1,6 @@
 # 404 altitude not found
 Where curiosity takes flight.
-## 🚀 Inspiration
+## ✈️ Inspiration
 I was inspired by the magic of flight itself.  
 Many people believe that aviation is either **too complicated** or **too mundane**. I wanted to close that gap by demonstrating how engineering, physics, and human resiliency all play a part in flying.
 
@@ -26,20 +26,47 @@ I'm trying to convey those tales in a magical way with this project.
 
 ---
 
-## 🛠 How I built it
-This project was built as a **static web app** with modular JavaScript and clean semantic HTML.  
+# 404 Altitude Not Found ✈️  
 
-### **Frontend Stack**
-- **HTML5** → semantic structure  
-- **CSS3** → responsive design with **Flexbox** + **Grid**  
-- **Vanilla JavaScript (ES6+)** → interactivity (no frameworks)  
+## Inspiration  
+I was inspired by the magic of flight itself.  
+Many people believe that aviation is either **too complicated** or **too mundane**. I wanted to close that gap by demonstrating how engineering, physics, and human resiliency all play a part in flying.  
 
-### **Dynamic Blog Engine**
-- Posts are loaded dynamically from `posts.js` using **URL query parameters** (`post.html?id=1`).  
-- A single **template page (`post.html`)** renders multiple blog posts dynamically.  
+A 17-hour ultra-long-haul is, after all, more than just sitting in a cabin; it's a dynamic combination of safety, fuel management, and rotations:  
 
-### **Quizzes**
-Each quiz is defined directly inside **`quiz.js`** as a JavaScript object:
+$$
+\text{Safety Margin} = \frac{\text{Fuel Load}}{\text{Consumption Rate}} - \text{Diversion Distance}
+$$  
+
+I'm trying to convey those tales in a magical way with this project.  
+
+---
+
+## What it does  
+**404 altitude not found** is a blog with an aviation theme that combines interactive elements with narrative. Visitors get to experience aviation in addition to reading:  
+- 📖 Explore stories about aviation, including hidden crew compartments, historical tragedies, and cutting-edge inventions.  
+- 🎮 Test knowledge with mini quizzes.  
+- 🛫 Tap playful airplane-shaped UI elements to unlock random aviation fun facts.  
+- 🌗 Change between the day and night modes, which are thoughtfully designed to give the impression that you are flying from dawn into the night.  
+- 📱 Explore on any device thanks to a responsive layout built with Flexbox + Grid + a sleek hamburger menu.  
+- ✈ Savor delicate flying plane animations that establish the mood as soon as you arrive at the website.  
+
+---
+
+## How I built it  
+This project was constructed using clean semantic HTML and modular JavaScript as a **static web app**:  
+
+- **Frontend Stack**:  
+  - HTML5 for semantic organization.  
+  - For responsive design, I used CSS3 with **Flexbox** + **Grid**.  
+  - For interactivity, I used vanilla JavaScript (ES6+) without any frameworks.  
+
+- **Dynamic Blog Engine**:  
+   - The dynamic blog engine loads posts from `posts.js` using **URL query parameters** (`post.html?id=1`).  
+   - This enables the rendering of numerous blog posts on a single **template page (`post.html`)**.  
+
+- **Quizzes**:  
+Every quiz is defined as a JavaScript object inside **`quiz.js`**:  
 
 ```js
 const quizzes = {
@@ -64,16 +91,16 @@ const quizzes = {
   // … additional quizzes
 };
 ```
-- `quiz.js` dynamically loads the correct quiz for each post based on postId from the URL.  
+- `quiz.js` uses the URL's `postId` to dynamically load the appropriate quiz for every post.  
 
 - **Dark Mode**:  
   - Implemented via a `dark-mode` CSS class toggled with JavaScript.  
-  - Custom airplane-shaped cursor (`.cur`) for visibility in dark mode.  
-  - Colors are defined with **CSS variables** for seamless switching.  
+  - For visibility in dark mode, a **custom airplane-shaped cursor** (`.cur`) was used.  
+  - **CSS variables** define colors so that switching between themes is smooth and seamless.  
 
 - **Animations**:  
-  - CSS keyframes drive airplane entry and text “flying in.”  
-  - JS event listeners trigger fun fact planes and interactive toasts.  
+  - **CSS keyframes** drive airplane entry and text “flying in.”  
+  - **JavaScript event listeners** trigger fun fact planes and interactive toasts. 
 
 ---
 
@@ -84,7 +111,7 @@ const quizzes = {
 ---
 
 ## 🏆 Accomplishments that I'm proud of
-- ✅ Converting **dry aviation facts** into **engaging, human stories**.  
+- ✅ Transforming **dry aviation facts** into **interesting, relatable stories**. 
 - ✅ Creating a **design that feels both professional and playful**.  
 - ✅ Making a space where **learning about flight feels like flying itself**.  
 - ✅ Actually *enjoying* the debugging process (rare, but true).  
